@@ -1,13 +1,15 @@
+import Banner from "components/Banner";
 import Cabecalho from "components/Cabecalho";
 import Rodape from "components/Rodape";
-import React from "react";
 
-export default function Inicio() {
+function Inicio() {
   return (
     <>
       <Cabecalho />
-      <div>oi</div>
+      <Banner imagem="home" />
       <Rodape />
     </>
   );
 }
+
+export default Inicio;

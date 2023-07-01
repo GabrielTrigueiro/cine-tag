@@ -1,5 +1,13 @@
-function App() {
-  return <div className="App">oi</div>;
-}
+import Inicio from "pages/Inicio";
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-export default App;
+export default function AppRoutes() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}

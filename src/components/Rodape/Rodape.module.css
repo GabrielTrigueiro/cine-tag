@@ -1,8 +1,11 @@
-.rodape{
-  background-color: black;
-  height: 88px;
-  color: var(--branco);
+.rodape {
   display: flex;
   justify-content: center;
-  align-items: center;
+  background-color: var(--preto);
+}
+
+.rodape h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--branco);
 }

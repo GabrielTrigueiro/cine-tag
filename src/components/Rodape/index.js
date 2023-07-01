@@ -1,11 +1,11 @@
 import React from "react";
 
-import styled from "./Rodape.module.css";
+import styles from "./Rodape.module.css";
 
 export default function Rodape() {
   return (
-    <footer className={styled.rodape}>
-      <div>Desenvolvido por Alura.</div>
+    <footer className={styles.rodape}>
+      <h2>Desenvolvido por Alura.</h2>
     </footer>
   );
 }

@@ -1,13 +1,12 @@
 import Cabecalho from "components/Cabecalho";
 import Container from "components/Container";
 import Rodape from "components/Rodape";
-import FavoritosProvider from "contextos/Favorito";
+import FavoritosProvider from "contextos/Favoritos";
 import Inicio from "pages/Inicio";
 import Favoritos from "pages/favoritos";
-import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-export default function AppRoutes() {
+function AppRoutes() {
   return (
     <BrowserRouter>
       <Cabecalho />
@@ -23,3 +22,5 @@ export default function AppRoutes() {
     </BrowserRouter>
   );
 }
+
+export default AppRoutes;
